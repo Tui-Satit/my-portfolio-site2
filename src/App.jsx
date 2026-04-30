@@ -16,7 +16,7 @@ function App() {
     id: 2,
     title: "Sign Shop Website",
     description: "เว็บไซต์ธุรกิจร้านป้ายโฆษณา",
-    image: "/images/front-shop.jpg",
+    image: "/images/sign-shop.png",
     link: "https://sign-shop.vercel.app/"
   }
 ];
