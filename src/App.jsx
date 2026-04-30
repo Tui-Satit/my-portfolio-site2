@@ -10,7 +10,7 @@ function App() {
     title: "Coffee shop Website",
     description: "เว็บไซต์ร้านกาแฟที่มีการออกแบบทันสมัยและใช้งานง่ายมีระบบการสั่งซื้อออนไลน์และแชทผ่านไลน์",
     image: "/images/coffee-cafe.jpg",
-    link: "https://coffee-shop-website.vercel.app/"
+    link: "https://coffee-website-ppo1.vercel.app/"
   },
   {
     id: 2,
