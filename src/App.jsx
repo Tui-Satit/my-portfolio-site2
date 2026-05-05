@@ -1,4 +1,5 @@
 import "./App.css";
+import Hero  from "./Hero";
 
 
 
@@ -21,27 +22,12 @@ function App() {
   }
 ];
   return (
-    <main className="page">
-      <section className="hero">
-        <p className="eyebrow">สวัสดีครับ ผมตุ่ย</p>
-
-        <h1>
-          ผู้สร้างเว็บไซต์ สวยงามและใช้งานง่าย สำหรับ ธุรกิจขนาดเล็กและขนาดกลาง
-        </h1>
-
-        <p className="heroText">
-          ผมสร้างเว็บไซต์ที่สะอาดตาและทันสมัยสำหรับช่วยธุรกิจของคุณให้มีความน่าเชื่อถือและดึงดูดลูกค้าใหม่ๆ มีความเป็นมืออาชีพ
-        </p>
-
-        <div className="heroActions">
-          <a href="#projects" className="btn primary">
-            ดูผลงานของผม
-          </a>
-          <a href="http://line.me/ti/p/~satitMe" className="btn secondary">
-            ติดต่อผมผ่านไลน์
-          </a>
-        </div>
+    <main className="portfolio-paage">
+      <section className="hero-section">
+        <Hero />
       </section>
+
+     
 
       <section className="about">
         <h2>เกี่ยวกับผม</h2>
