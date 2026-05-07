@@ -29,28 +29,53 @@ function App() {
 
      
 
-      <section className="about">
-        <h2>เกี่ยวกับผม</h2>
-        <p>
-          ผมเป็นนักพัฒนาเว็บไซต์ ที่มีประสบการณ์และมีความเชี่ยวชาญในด้านการออกแบบและพัฒนาเว็บไซต์  ที่ชอบพัฒนาเว็บไซต์ที่เรียบง่ายและช่วยให้ธุรกิจเติบโตได้จริง
+      <section className="about-section">
+        <div className="about-bg about-bg-1"></div>
+        <div className="about-bg about-bg-2"></div>
+
+        <p className="about-label">เกี่ยวกับผม</p>
+        <h2 className="about-title">  นักพัฒนาเว็บไซด์</h2>
+
+        <p className="about-description">
+          ผมเป็นนักพัฒนาเว็บไซด์ ที่มีประสบการณ์และเชี่ยวชาญในด้านการออกแบบและพัฒนาเว็บไซด์ ที่เรียบง่ายและช่วยให้ธุระกิจเติบโตได้จริง
         </p>
 
-        <div className="aboutBox">
-          <div>
-            <h3>💻 Frontend</h3>
-            <p>React, HTML, CSS</p>
-          </div>
-
-          <div>
-            <h3>⚡ Backend</h3>
-            <p>Node.js, Express</p>
-          </div>
-          
-          <div>
-            <h3>🔥 Tools</h3>
-            <p>Git, Firebase, Vercel</p>
+        <div className="skill-grid">
+          <div className="skill-card purple">
+          <div className="skill-icon">💻</div>
+          <h3>Frontend</h3>
+          <span></span>
+          <p>สร้างประสบการณ์ที่ดีและทันสมัยด้วยเทคโนโลยี่ฝั่งหน้าเว็บไซด์</p>
+          <div className="skill-tags">
+            <small>React</small>
+            <small>HTML</small>
+            <small>CSS</small>
           </div>
         </div>
+
+        <div className="skill-card orange">
+           <div className="skill-icon">⚡</div>
+           <h3>Backend</h3>
+           <span></span>
+           <p>พัฒนา API และระบบหลังบ้านที่มีประสิทธิภาพและเสถียร</p>
+           <div className="skill-tags">
+            <small>Node.js</small>
+            <small>Express</small>
+           </div>
+        </div>
+
+        <div className="skill-card pink">
+          <div className="skill-icon">🔥</div>
+          <h3>Tools</h3>
+          <span></span>
+          <p>เครื่องมือที่ช่วยให้การพัฒนารวดเร็วและมีประสิทธิภาพ</p>
+          <div className="skill-tags">
+            <small>Git</small>
+             <small>Firebase</small>
+              <small>Vercel</small>
+          </div>
+          </div> 
+          </div>
       </section>
 
       <section className="projects">
