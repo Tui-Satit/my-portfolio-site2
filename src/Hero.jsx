@@ -16,10 +16,7 @@ function Hero() {
           ผมสร้างเว็บไซต์ที่สะอาดตา ทันสมัย และช่วยให้ธุรกิจของคุณดูน่าเชื่อถือพร้อมดึงดูดลูกค้าใหม่ๆ
         </p>
 
-        <div className="hero-buttons">
-          <button className="btn primary">ดูผลงานของผม</button>
-          <button className="btn secondary">ติดต่อผมผ่านไลน์</button>
-        </div>
+       
       </div>
     </section>
   );
